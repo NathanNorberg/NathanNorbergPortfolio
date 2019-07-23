@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel='stylesheet' href='ionicons.min.css'>
+    <link rel="stylesheet" href="videoSlideshow.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	  <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="videoSlideshow.js"></script>
+  </head>
+  <body>
+    <header class="fixed-top bg-secondary" id="Home">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link white" href="portfolio.html">Back</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link white" href="#Hobbies">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link white" href="#Travel">Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link white" href="#Family">Family</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link white" href="#Legos">Legos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link white" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <div id="Hobbies" class="pt-5 pb-4">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col">
+          <h2>My Hobbies</h2>
+          <p>As mentioned before one of my lifetime hobbies is building Legos. I also enjoy playing sports, videogames, hiking, traveling, and spending time with family and friends. I played almost every sport possible as a child but over the years I focused my time on soccer and played on club and school teams. As well as playing sports since a child I have also played videogames since a small child starting with Super Mario World on the SNES and continue to enjoy the fun and challenge they bring. One thing I have loved is traveling and was able to do a lot of it while being an employee of American Airlines.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+    <div id="Travel" class="pt-5 pb-5">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+          <div class="video-slider">
+        		<!-- SLIDE 1 -->
+        		<div class="slide">
+        			<iframe class="video" src="https://www.youtube.com/embed/66gPS80454w?ecver=2&enablejsapi=1"></iframe>
+        		</div>
+        		<!-- SLIDE 2 -->
+        		<div class="slide">
+        			<iframe class="video" src="https://www.youtube.com/embed/EhUVhuUKCtI?ecver=2&enablejsapi=1"></iframe>
+        		</div>
+            <!-- SLIDE 3 -->
+        		<div class="slide">
+        			<iframe class="video" src="https://www.youtube.com/embed/nLFjO_ncs3s?ecver=2&enablejsapi=1"></iframe>
+        		</div>
+        		<!-- END OF SLIDES -->
+        		<div class="slide-arrow left"></div>
+        		<div class="slide-arrow right"></div>
+        	</div>
+        </div>
+        <div class="col">
+          <h2 class="white">My Travels</h2>
+          <br>
+          <p class="white">I had the opportunity to work for American Airlines as a ramp agent at Phoenix Sky Harbor Airport for 2 years before starting the Web Development program at Galvanize. Working for the airline provided me the opportunity to travel around the world and visit different countries.  I loved learning about new cities, cultures and people during my travels as well as documenting as much as I could.  To the left are three videos I created from trips to <strong>(1)</strong> Barcelona, Spain <strong>(2)</strong> Kyoto and Tokyo, Japan <strong>(3)</strong> Bangkok, Phuket, and Krabi, Thailand & Singapore</p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <div id="Family" class="pb-5">
+      <div class="row">
+        <img class="banner" width="100%" src="./images/familyCollage.jpg" alt="">
+      </div>
+      <div class="row pt-5 pb-4">
+        <div class="col-3"></div>
+        <div class="col">
+          <h2 class="text-center white">My Family</h2>
+          <p class="white">My family (picture above on the right) is composed of my wife, parents, three sisters, and one brother in law.  I lived in Utah until I was 11 years old, then moved to Arizona and have been here ever since, with the exception of serving a 2 year church mission in Colombia.  Most of my inlaws (picture above in the top middle) are from Arizona as well. I am very close with my family and over the years I have received immense support from them in all I do.</p>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+    <div id="Legos" class="pt-5 pb-5">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+          <h2>Legos</h2>
+          <p>As long as I can remember I have been building. My grandparents would always give me legos for any occasion and over the past 20+ years I have built up quite the collection. My biggest projects (on the right) are composed of several thousand pieces, took multiple weeks to complete and required meticulus attention to detail. I find great enjoyment to create something and see it brought to life before my eyes. The same satisfaction that I've felt over the years building legos I have found in web development.</p>
+        </div>
+        <div class="col">
+          <img width="100%" src="./images/legos.jpg" alt="">
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <div id="Contact" class="mx-auto pt-4 pb-4" style="width: 100%;">
+      <div class="row mx-auto">
+        <div class="col">
+          <h1 class="text-center white">Contact Me:</h1>
+        </div>
+      </div>
+      <div class="row mx-auto">
+        <div class="col mx-auto meh">
+          <a class="text-center pr-3" href="mailto:nathanmnorberg@gmail.com" target="_blank"><img style="width:50px;" class="icon text-center" src="./images/email.png" alt=""></a>
+          <a class="text-center" href="https://www.linkedin.com/in/nathan-norberg/" target="_blank"><img style="width:50px;" class="icon text-center" src="./images/linkedIn.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

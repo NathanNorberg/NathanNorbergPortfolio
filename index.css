@@ -1,0 +1,78 @@
+
+/* portfolio.html css */
+
+
+.white {
+  color: #f9f9ff;
+}
+
+.charcoal {
+  color: #373737;
+}
+
+
+#About {
+  background-color: #C5C1C0;
+  width: 100%;
+}
+
+#Projects {
+  background-color: #1A2930;
+  width: 100%;
+}
+
+.card {
+  background-color: #C5C1C0;
+}
+
+.btn {
+  background-color: #F7CE3E;
+  color: white;
+}
+
+#Education {
+  background-color: #0A1612;
+  width: 100%;
+}
+
+#Skills {
+  background-color: #C5C1C0;
+  width: 100%;
+}
+
+.skills {
+  font-size: 25px;
+}
+
+#Contact {
+  background-color: #F7CE3E;
+  width: 100%;
+}
+
+.meh {
+  padding-left: 45%;
+}
+
+
+/* myLife.html css */
+
+
+#Hobbies {
+  background-color: #C5C1C0;
+  width: 100%;
+}
+
+#Travel {
+  background-color: #1A2930;
+  width: 100%;
+}
+
+#Family {
+  background-color: #0A1612;
+  width: 100%;
+}
+
+#Legos {
+  background-color: #C5C1C0;
+  width: 100%;
+}
