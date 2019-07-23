@@ -1,47 +1,28 @@
-
-/* portfolio.html css */
-
-
 .white {
   color: #f9f9ff;
 }
 
-.charcoal {
-  color: #373737;
-}
+/* myLife.html css */
 
 
-#About {
+#Hobbies {
   background-color: #C5C1C0;
   width: 100%;
 }
 
-#Projects {
+#Travel {
   background-color: #1A2930;
   width: 100%;
 }
 
-.card {
-  background-color: #C5C1C0;
-}
-
-.btn {
-  background-color: #F7CE3E;
-  color: white;
-}
-
-#Education {
+#Family {
   background-color: #0A1612;
   width: 100%;
 }
 
-#Skills {
+#Legos {
   background-color: #C5C1C0;
   width: 100%;
-}
-
-.skills {
-  font-size: 25px;
 }
 
 #Contact {
